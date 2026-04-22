@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #161b22;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #4CAF50;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 30px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #4CAF50;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: #4CAF50;
+}
+
+p {
+    width: 55%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.top-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 50px auto;
+    width: fit-content;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    margin-top: 30px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+ul {
+    width: fit-content;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.page-image {
+    width: 420px;
+    height: 280px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
